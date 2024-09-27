@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+
+}
+
+.appbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.appbar-div {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.appbar-logo {
+    width: 70px; 
+    margin: 10px;
+    border-radius: 15px;
+    height: auto;
+    margin-right: 15px; 
+}
+
+.appbar-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navegação */
+.main-nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.sobre-nav {
+  color: #252627;
+  text-decoration: none;
+}
+
+.nav-link {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+.nav-link:hover {
+  color: grey;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-article {
+    width: 70%;
+    display: grid;
+}  
+
+.article-title {
+    margin-top: 0;
+    justify-self: center;
+}
+
+.article-text {
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+
+.my-image {
+    width: 128px;
+    height: 64px;
+    border-radius: 12px;
+    margin: 10px 5px;
+}
+
+.image-size {
+    width: 540px;
+    height: 540px;
+    border-radius: 10px;
+}

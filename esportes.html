@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7ee2211d56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a href="/index.html">
+            <img src="augustonews-sideways.jpg" alt="Augusto News Logo" class="my-image"> 
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="/sobre.html" class="navbar-item">
+                Sobre
+                </a>
+        
+                <a  href="/contato.html" class="navbar-item">   
+                Contato
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button id="theme-toggle" class="button is-light"><i id="theme-icon" class="fa-solid fa-sun"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tabs is-centered is-boxed">
+        <ul>
+          <li>
+            <a href="/index.html">
+                <span class="icon is-small">
+                    <i class="fas fa-newspaper" aria-hidden="true"></i>
+                </span>
+                <span>Últimas Notícias</span>
+            </a>
+          </li>
+          <li>
+            <a href="/tecnologia.html">
+                <span class="icon is-small">
+                    <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                </span>
+                <span>Tecnologia</span>
+            </a>
+          </li>
+          <li>
+            <a href="/saude.html">
+                <span class="icon is-small">
+                    <i class="fas fa-heartbeat" aria-hidden="true"></i>
+                </span>
+                <span>Saúde</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <a href="/esportes.html">
+                <span class="icon is-small">
+                    <i class="fas fa-futbol" aria-hidden="true"></i>
+                </span>
+                <span>Esportes</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+
+    <div class="columns is-centered">
+        <div class="column is-half"> <!-- terceiro card -->
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img
+                            src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/9bdd/live/e8944fb0-4eac-11ef-8f0f-0577398c3339.jpg.webp"
+                            alt="O voo de Gabriel Medina registrado quadro a quadro"
+                        />
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media-content">
+                        <p class="title is-5">O voo de Gabriel Medina registrado quadro a quadro</p>
+                    </div>
+                    <a class="card-content-link" href="/NoticiaEsportes.html">
+                        <div class="content mt-3">
+                            <p>O fotógrafo francês Jerome Brouillet sabia que tinha a chance de capturar algo especial quando o surfista...<i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </a>
+                    <div class="content mt-3">
+                        <time datetime="2024-09-25">03:45 PM - 30 Jul 2024</time>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- terceiro card -->
+    </div>
+
+    <footer class="footer is-hidden-touch">
+        <div class="content has-text-centered">
+            <div class="icon mr-5">
+                <a class="footer-icons" href="https://github.com/gutowink">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+            </div>
+
+            <div class="icon mr-5">
+                <a class="footer-icons" href="https://www.linkedin.com/in/augustowink/">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>    
+                </a>
+            </div>
+
+            <div class="icon">
+                <a class="footer-icons" href="https://www.instagram.com/guto.wink/">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <nav class="navbar is-hidden-desktop" role="navigation" aria-label="mobile navigation">
+        <div class="navbar-brand is-flex is-justify-content-space-around">
+            <a href="/sobre.html" class="navbar-item-mob">
+                <span class="icon"><i class="fas fa-info-circle"></i></span>
+                <span class="navbar-label">Sobre</span>
+            </a>
+            <a href="/index.html" class="navbar-item-mob">
+                <span class="icon"><i class="fa-solid fa-house"></i></span>
+                <span class="navbar-label">Início</span>
+            </a>
+            <a href="/contato.html" class="navbar-item-mob">
+                <span class="icon"><i class="fas fa-envelope-open-text"></i></span>
+                <span class="navbar-label">Contato</span>
+            </a>
+        </div>
+    </nav>
+
+</body>
+</html>
